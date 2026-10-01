@@ -1,0 +1,77 @@
+{
+  "presets": [
+    {
+      "position": "1",
+      "r_ohm": 10000.0,
+      "r_label": "10 k\u03a9",
+      "target_mA": 100,
+      "actual_mA": 100.0,
+      "error_percent": 0.0
+    },
+    {
+      "position": "2",
+      "r_ohm": 5100.0,
+      "r_label": "5.1 k\u03a9",
+      "target_mA": 200,
+      "actual_mA": 196.07843137254903,
+      "error_percent": -1.9607843137254832
+    },
+    {
+      "position": "3",
+      "r_ohm": 3300.0,
+      "r_label": "3.3 k\u03a9",
+      "target_mA": 300,
+      "actual_mA": 303.03030303030306,
+      "error_percent": 1.01010101010102
+    },
+    {
+      "position": "4",
+      "r_ohm": 2400.0,
+      "r_label": "2.4 k\u03a9",
+      "target_mA": 400,
+      "actual_mA": 416.6666666666667,
+      "error_percent": 4.166666666666671
+    },
+    {
+      "position": "5",
+      "r_ohm": 2000.0,
+      "r_label": "2 k\u03a9",
+      "target_mA": 500,
+      "actual_mA": 500.0,
+      "error_percent": 0.0
+    }
+  ],
+  "custom": [
+    {
+      "target_mA": 50,
+      "ideal_kohm": 20.0,
+      "e24_kohm": 20.0,
+      "actual_mA": 50.0
+    },
+    {
+      "target_mA": 150,
+      "ideal_kohm": 6.666666666666667,
+      "e24_kohm": 6.8,
+      "actual_mA": 147.05882352941177
+    },
+    {
+      "target_mA": 250,
+      "ideal_kohm": 4.0,
+      "e24_kohm": 3.9,
+      "actual_mA": 256.4102564102564
+    },
+    {
+      "target_mA": 350,
+      "ideal_kohm": 2.857142857142857,
+      "e24_kohm": 3.0,
+      "actual_mA": 333.3333333333333
+    },
+    {
+      "target_mA": 450,
+      "ideal_kohm": 2.2222222222222223,
+      "e24_kohm": 2.2,
+      "actual_mA": 454.5454545454545
+    }
+  ],
+  "formula": "I_REG[mA] = 1000 / R_PROG[kOhm]"
+}
